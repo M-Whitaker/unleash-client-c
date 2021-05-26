@@ -28,7 +28,10 @@
 *.so.*
 *.dylib
 
-# Executables
+# Executables / Binary Folder
+bin/*
+build/*
+cmake-build-*/*
 *.exe
 *.out
 *.app
@@ -50,3 +53,6 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# Keep folders
+!.gitkeep

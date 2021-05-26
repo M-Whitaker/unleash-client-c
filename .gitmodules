@@ -1,0 +1,6 @@
+[submodule "vendor/json-c"]
+	path = vendor/json-c
+	url = git@github.com:json-c/json-c.git
+[submodule "test/client-spec-conformance"]
+	path = test/conformance/specification
+	url = git@github.com:Unleash/client-specification.git
